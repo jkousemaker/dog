@@ -1,0 +1,211 @@
+<!DOCTYPE html >
+<html data-theme="winter">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patricia</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="output.css" rel="stylesheet">
+</head>
+<body>
+    <div class="website-container h-full flex justify-between flex-col">
+
+        
+
+        <div class="navbar bg-base-300 max-sm:justify-between">
+            <div class="navbar-start max-sm:w-auto">
+              <div class="dropdown">
+                <label tabindex="0" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </label>
+                <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="info.html">Informatie</a></li>
+                    <li><a href="gallery.html">Gallerij</a></li>
+                </ul>
+              </div>
+              <a href="index.html" class="normal-case link-primary text-xl max-md:text-sm truncate">Patricia's Uitlaat Service</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="info.html">Informatie</a></li>
+                <li><a href="gallery.html">Gallerij</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end max-sm:w-auto">
+              <a href="contact.html" class="btn btn-primary btn-primary-focus text-white normal-case">Neem contact</a>
+            </div>
+          </div>
+          
+  
+
+        <div class="flex justify-center items-center md:container md:mx-auto my-2">
+            <div class="border border-1 max-sm:w-full border-gray-300 mx-2 p-6 rounded-md">
+                <h2 class="text-3xl font-semibold mb-4">Contact</h2>
+                <div class="flex flex-col lg:flex-row gap-x-14 gap-y-0">
+                        <div class="max-lg:w-full flex justify-center">
+                            <dl class="max-lg:w-full flex lg:flex-col gap-4 text-gray-900 divide-y divide-gray-200 dark:text-white dark:divide-gray-700">
+                                <p class="text-md whitespace-pre-line max-w-xs font-light text-gray-500 flex items-start content-start">
+                                    Wat leuk dat u contact wilt opnemen met mij.
+
+                                    Ik sta altijd open voor andere mogelijkheden om een service aan te bieden.
+
+                                    U kunt mij in ieder geval een bericht sturen met daarin zoveel mogelijk informatie.
+
+                                    Ik hoop snel van u te horen!
+                                
+                                </p>
+                                <div class=" flex flex-col gap-4 max-lg:border-none max-sm:hidden">
+                                    <div class="flex flex-col ">
+                                        <dt class="mb-1 text-gray-700 md:text-lg dark:text-gray-400 ">Email adres</dt>
+                                        <a href="mailto:patricia@gmail.com" class="text-lg font-semibold underline underline-offset-4 link-primary">patricia@gmail.com</a>
+                                    </div>
+                                    <div class="flex flex-col ">
+                                        <dt class="mb-1 text-gray-700 md:text-lg dark:text-gray-400">Telefoon nummer</dt>
+                                        <a href="tel:+31627833126" class="text-lg font-semibold underline underline-offset-4 link-primary">+31 6 27833126</a>
+                                    </div>
+                                </div>
+                                
+                            </dl>
+                        </div>
+                        
+
+                    <div class="row">
+                        <form>
+                            <div class="grid grid-cols-1 gap-y-3 gap-x-8 sm:grid-cols-2">
+                                <div>
+                                    <label for="first-name" class="block text-sm font-semibold leading-6 text-gray-900">Voornaam</label>
+                                    <div class="mt-1">
+                                        <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="block w-full py-1.5 px-3 text-gray-900 shadow-sm input input-sm input-bordered input-secondary focus:ring-0 focus:border-t-secondary-focus sm:text-sm">
+                                        
+                                    </div>
+                                </div>
+                                <div>
+                                    <label for="last-name" class="block text-sm font-semibold leading-6 text-gray-900">Achternaam</label>
+                                    <div class="mt-1">
+                                        <input type="text" name="last-name" id="last-name" autocomplete="family-name" class="block w-full py-1.5 px-3 text-gray-900 shadow-sm input input-sm input-bordered input-secondary focus:ring-0 focus:border-t-secondary-focus sm:text-sm">
+                                    </div>
+                                </div>
+                                <div>
+                                    <label for="email" class="block text-sm font-semibold leading-6 text-gray-900">Email</label>
+                                    <div class="mt-1">
+                                        <input type="email" name="email" id="email" autocomplete="email" class="block w-full py-1.5 px-3 text-gray-900 shadow-sm input input-sm input-bordered input-secondary focus:ring-0 focus:border-t-secondary-focus sm:text-sm">
+                                    </div>
+                                </div>
+                                <div>
+                                    <label for="phone-number" class="block text-sm font-semibold leading-6 text-gray-900">Telefoon nummer</label>
+                                    <div class="flex mt-1">
+                                        <span class="inline-flex items-center relative">
+                                            <div class="absolute text-sm text-white left-2 h-full flex items-center">
+                                                +
+                                            </div>
+                                            <input type="number" name="country-code" id="country-code" autocomplete="tel-country-code" min="0" class=" badge-secondary w-12 h-full py-0 text-white pr-0 appearance-none text-center rounded-md rounded-r-none input-bordered input-secondary focus:ring-0 focus:border-t-secondary-focus" value="31">
+                                        </span>
+                                        <input type="tel" name="phone-number" id="phone-number" autocomplete="tel" class="block w-full py-1.5 px-3 text-gray-900 shadow-sm input input-sm rounded-l-none input-bordered input-secondary focus:ring-0 focus:border-t-secondary-focus sm:text-sm">
+                                    </div>
+                                </div>
+                                
+                                <div class="sm:col-span-2">
+                                    <label for="service" class="mb-1 block text-sm font-semibold leading-6 text-gray-900">Services</label>
+                                    
+                                    <div id="accordion-color" data-accordion="collapse" data-active-classes="bg-blue-100 text-blue-600 dark:text-white">
+                                        <h2 id="accordion-color-heading-1">
+                                            <button type="button" class="flex items-center justify-between font-medium text-left w-full py-1.5 px-3 text-gray-900 shadow-sm input input-sm input-bordered input-secondary rounded-b-none focus:ring-0 focus:border-t-secondary-focus focus:bg-secondary-content sm:text-sm" data-accordion-target="#accordion-color-body-1" aria-expanded="false" aria-controls="accordion-color-body-1">
+                                                <span>Wilt u een service aangeven?</span>
+                                                <svg data-accordion-icon class="w-6 h-6 rotate-360 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                                            </button>
+                                        </h2>
+                                        <div id="accordion-color-body-1" class="hidden" aria-labelledby="accordion-color-heading-1">
+                                            <div class="flow-root border border-gray-300 rounded-md rounded-t-none bg-white">
+                                                <ul role="list" class="divide-y divide-gray-200 dark:divide-gray-700">
+                                                    <li class="p-3">
+                                                        <div class="flex items-center space-x-4">
+                                                            <div class="flex-1 min-w-0">
+                                                                <p class="text-sm font-medium text-gray-900 truncate dark:text-white">
+                                                                    Uitlaat service
+                                                                </p>
+                                                                <p class="text-sm mt-2 text-gray-500 truncate dark:text-gray-400">
+                                                                    <span class="font-bold text-secondary-focus">10€</span> per wandeling
+                                                                </p>
+                                                            </div>
+                                                            <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+                                                                <input type="checkbox" name="service" value="Uitlaat service" class="checkbox checkbox-secondary">
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="p-3">
+                                                        <div class="flex items-center space-x-4">
+                                                            <div class="flex-1 min-w-0">
+                                                                <p class="text-sm font-medium text-gray-900 truncate dark:text-white">
+                                                                    Opvang hond (aan huis)
+                                                                </p>
+                                                                <p class="text-sm mt-2 text-gray-500 truncate dark:text-gray-400">
+                                                                    <span class="font-bold text-secondary-focus">15€</span> per dag en/of dagdeel
+                                                                </p>
+                                                            </div>
+                                                            <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+                                                                <input type="checkbox" name="service" value="Opvang hond (aan huis)" class="checkbox checkbox-secondary">
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="p-3">
+                                                        <div class="flex items-center space-x-4">
+                                                            <div class="flex-1 min-w-0">
+                                                                <p class="text-sm font-medium text-gray-900 truncate dark:text-white">
+                                                                    Opvang dergelijke dieren (aan huis)
+                                                                </p>
+                                                                <p class="text-xs text-gray-500 truncate dark:text-gray-400">
+                                                                    Katten, konijnen, vogels
+                                                                </p>
+                                                                <p class="text-sm mt-2 text-gray-500 truncate dark:text-gray-400">
+                                                                    <span class="font-bold text-secondary-focus">7,50€</span> per wandeling en/of dagdeel
+                                                                </p>
+                                                            </div>
+                                                            <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+                                                                <input type="checkbox" name="service" value="Opvang dergelijke dieren (aan huis)" class="checkbox checkbox-secondary">
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                           </div>
+                                        </div>
+                                    </div>
+  
+                                    
+                                </div>
+                                <div class="sm:col-span-2">
+                                    <label for="message" class="block text-sm font-semibold leading-6 text-gray-900">Bericht</label>
+                                    <div class="mt-1">
+                                        <textarea name="message" id="message" rows="4" style="min-height: 5rem;" class="block w-full py-1.5 px-3 text-gray-900 shadow-sm input input-sm input-bordered input-secondary focus:ring-0 focus:border-t-secondary-focus sm:text-sm"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mt-10">
+                                <button type="submit" onclick="sendEmail()" class="block w-full rounded-md text-white px-3.5 py-2.5 text-center text-sm font-semibold btn btn-primary">Verstuur bericht</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        <footer
+            class="bg-neutral-200 text-center dark:bg-neutral-700 lg:text-left">
+            <div class="p-2 text-center text-neutral-700 dark:text-neutral-200">
+                © 2023 Copyright:
+                <a
+                class="text-neutral-800 dark:text-neutral-400"
+                href="https://tailwind-elements.com/"
+                >Patricia Kousemaker</a
+                >
+            </div>
+            </footer>
+
+    </div>
+    <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
+    <script src="../node_modules/tw-elements/dist/js/index.min.js"></script>
+</body>
+</html>
